@@ -1,4 +1,6 @@
 let x = 10;
 let y = 11;
 
-document.write(x+y);
+const res = x+y;
+
+document.write(res);
