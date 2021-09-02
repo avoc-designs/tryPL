@@ -1,5 +1,5 @@
-let x = 10;
-let y = 11;
+let x = 5;
+let y = 123;
 
 const res = x+y;
 
