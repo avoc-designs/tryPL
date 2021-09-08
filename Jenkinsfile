@@ -11,6 +11,12 @@ pipeline {
                 withSonarQubeEnv('sonarqube') {
                     sh "${scannerHome}/bin/sonar-scanner -Dsonar.projectKey=TryPl"
                 }
+                //TRYYYYYYYYYYYYYYYYY!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+            }
+        }
+        stage('Hello'){
+            steps {
+                echo 'Hello, JDK'
             }
         }
     }
