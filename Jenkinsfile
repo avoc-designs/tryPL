@@ -8,10 +8,11 @@ pipeline {
                     scannerHome = tool 'sonarscanner'
                     // La herramienta aquí es obtener la ruta del complemento instalado automáticamente directamente en función del nombre
                 }
-                withSonarQubeEnv('SonarQube') {
+                withSonarQubeEnv('sonarqube') {
                     sh "${scannerHome}/bin/sonar-scanner -Dsonar.projectKey=TryPl"
                 }
             }
         }
     }
 }
+//try
